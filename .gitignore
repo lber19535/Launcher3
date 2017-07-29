@@ -1,16 +1,79 @@
 db_files
-*.iml
-.project
-.classpath
-.project.properties
-gen/
+# *.iml
+# .project
+# .classpath
+# .project.properties
+# gen/
 tests/stress/gen/
 WallpaperPicker/gen/
 WallpaperPicker/.project.properties
-bin/
-.idea/
-.gradle/
-local.properties
-gradle/
+# bin/
+# .idea/
+# .gradle/
+# local.properties
+# gradle/
 build/
-gradlew*
+# gradlew*
+
+# Built application files
+*.apk
+*.ap_
+
+# Files for the Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+
+# Gradle files
+.gradle
+/local.properties
+
+.DS_Store
+/build
+/captures
+Thumbs.db
+
+# Intellij project files
+*.iml
+*.ipr
+*.iws
+# User-specific stuff:
+#.idea/workspace.xml
+#.idea/tasks.xml
+#.idea/dictionaries
+#.idea/vcs.xml
+#.idea/jsLibraryMappings.xml
+
+# Sensitive or high-churn files:
+#.idea/dataSources.ids
+#.idea/dataSources.xml
+#.idea/dataSources.local.xml
+#.idea/sqlDataSources.xml
+#.idea/dynamic.xml
+#.idea/uiDesigner.xml
+
+# Gradle:
+#.idea/gradle.xml
+#.idea/libraries
+.idea
+
+# Mongo Explorer plugin:
+.idea/mongoSettings.xml
+
+out/
+build/
+**/build/
+
+# Log Files
+*.log
+
+# signed key folder
+#keystore/
+# /app/BuglyUploadLog.txt
+# /app/bugly
+
